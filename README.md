@@ -76,6 +76,17 @@ I developed this website from a framework provided by the UC Berkeley Extension 
 
 ---
 ## Credits
+
  The excellent staff at UC Berkeley Extension Full Stack Bootcamp provided the beginings of the table of technology used in this README.md, as well as the initial package.json and a few to do items were listed in index.js and generateMarkdown.js. The functions to implement the site were all written by me. 
  
  In addition to writing almost all of the javascript, I also wrote all the HTML, to implement the site.
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Badges
