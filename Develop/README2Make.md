@@ -18,7 +18,7 @@ varDescriptionXXXXXXXX
 - [Badges](#Badges)
 - [AuthorInfo](#AuthorInfo)
 - [HowToContribute](#HowToContribute)
-- [Tests](#Tests)
+- [Tests](##Tests)
 
 ---
 
