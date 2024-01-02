@@ -59,6 +59,12 @@ inquirer
         name: 'varUsage',
     },
     {
+        name: "varLicense",
+        type: "list",
+        message: "Choose your license:",
+        choices: ["MIT_license", "Apache_License_2.0", "GNU_General_Public_License_v3.0", "Mozilla_Public_License_2.0"],
+    },
+    {
         type: 'input',
         message: 'Please input the guidelines regarding how to contribite to your project:',
         name: 'varContribute',
@@ -111,6 +117,17 @@ ${response.varUsage}
 
 ---
 
+## License
+
+${response.varLicense}
+
+---
+
+## Badges
+![Static Badge](https://img.shields.io/badge/License-${response.varLicense}-blue)
+
+---
+
 ## AuthorInfo
 
 ### ${response.varName}
@@ -120,7 +137,7 @@ ${response.varUsage}
 ## Questions
 
 ### You can email me with any questions at the email address below. The GitHub repository can also be found below:
- 
+
 * [Email](${response.varEmail})
 * [Github](${response.varGithub})
 

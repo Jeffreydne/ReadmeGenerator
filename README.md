@@ -91,7 +91,7 @@ MIT License
 ---
 
 ## Badges
-![Static Badge](https://img.shields.io/badge/License-MIT%20License-blue)
+![Static Badge](https://img.shields.io/badge/License-MIT_License-blue)
 ![Static Badge](https://img.shields.io/badge/License-Apache%20License%202.0-blue)
 ![Static Badge](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-blue)
 ![Static Badge](https://img.shields.io/badge/License-Mozilla%20Public%20License%202.0-blue)
