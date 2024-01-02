@@ -75,7 +75,7 @@ inquirer
 //This trial of storing data doesn't seem to work. Only the 1st "response is in orange"
 // userName = response.varName, userEmail = response.varEmail, userGithub = response.varGithub, projectTitle = response.varProjectTitle, deployedSite = response.varDeployedSite, description = response.varDescription, installation = response.varInstallation, usage = response.varUsage, contribute = response.varContribute, tests = response.varTests
 
-fs.writeFile('README.md', `# ${response.varProjectTitle}
+fs.writeFile('README2.md', `# ${response.varProjectTitle}
 
 ---
 

@@ -25,7 +25,7 @@ This is a website where the user can .
 
 ## Instalation
 
-This application requires the npm module inquirer. If you do not already have this module installed globally then you will need to type 'npm init' followed by 'npm install' in the command line before running this program.  
+This application requires the npm module inquirer. If you do not already have this module installed globally then you will need to type npm install in the command line before running this program.  
 
 
 ---
@@ -95,4 +95,3 @@ MIT License
 ![Static Badge](https://img.shields.io/badge/License-Apache%20License%202.0-blue)
 ![Static Badge](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-blue)
 ![Static Badge](https://img.shields.io/badge/License-Mozilla%20Public%20License%202.0-blue)
-
