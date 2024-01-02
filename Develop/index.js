@@ -60,12 +60,12 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Please input the description of how to contribite to your project:',
+        message: 'Please input the guidelines regarding how to contribite to your project:',
         name: 'varContribute',
     },
     {
         type: 'input',
-        message: 'Please input the description of how to test your project:',
+        message: 'Please input the instructions regarding how to test your project:',
         name: 'varTests',
     },
 ])
@@ -115,6 +115,12 @@ ${response.varUsage}
 
 ### ${response.varName}
 
+---
+
+## Questions
+
+### You can email me with any questions at the email address below. The GitHub repository can also be found below:
+ 
 * [Email](${response.varEmail})
 * [Github](${response.varGithub})
 
