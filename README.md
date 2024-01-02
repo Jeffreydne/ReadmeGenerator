@@ -25,7 +25,7 @@ This is a website where the user can .
 
 ## Instalation
 
-This application requires the npm module inquirer. If you do not already have this module installed globally then you will need to type npm install in the command line before running this program.  
+This application requires the npm module inquirer. If you do not already have this module installed globally then you will need to type 'npm init' followed by 'npm install' in the command line before running this program.  
 
 
 ---

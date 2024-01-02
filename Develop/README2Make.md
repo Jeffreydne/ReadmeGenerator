@@ -50,14 +50,14 @@ varBadgesXXXXXXXX
 
 ### varNameXXXXXXX
 
-* [Email](varEmailAddressXXXXXXX)
-* [Github](varGithubUsernameXXXXXXX)
+* [Email](varEmailXXXXXXX)
+* [Github](varGithubXXXXXXX)
 
 ---
 
 ## HowToContribute
 
-varHowToContributeXXXXXXXXXX
+varContributeXXXXXXXXXX
 
 ---
 
