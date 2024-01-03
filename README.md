@@ -19,7 +19,7 @@ An API to generate a readme file from the command line based on user input
 
 [Visit the Deployed Site](https://jeffreydne.github.io/ReadmeGenerator)
 
-This is a website where the user can generate a README file by answereing a series of questions in the CLI. 
+This is a website where the user can generate a README file by answering a series of questions in the CLI. 
 
 ---
 
