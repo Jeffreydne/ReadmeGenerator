@@ -1,12 +1,12 @@
-# "My Project"
+# README.md Generator
 
 ---
 
 ## Description
 
-[Visit the Deployed Site](myproject.github.com)
+[Visit the Deployed Site](www.github.com/jeffSite)
 
-"This is a crazy site that does nothing"
+this is a very cool project
 
 ---
 
@@ -16,38 +16,38 @@
 - [Usage](#usage)
 - [License](#license)
 - [Badges](#badges)
-- [Author Info](#author-info)
-- [How To Contribute](#how-to-contribute)
+- [AuthorInfo](#author-info)
+- [HowToContribute](#how-to-contribute)
 - [Tests](#tests)
 
 ---
 
 ## installation
 
-"You never want to install this"
+init is the key
 
 ---
 
 ## usage
 
-"It wants to be used by yiou"
+use it at your own peril
 
 ---
 
 ## license
 
-Apache_License_2.0
+Mozilla_Public_License_2.0
 
 ---
 
 ## badges
-![Static Badge](https://img.shields.io/badge/License-Apache_License_2.0-blue)
+![Static Badge](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-blue)
 
 ---
 
 ## author-info
 
-### Jeff
+### JDN
 
 ---
 
@@ -55,17 +55,17 @@ Apache_License_2.0
 
 ### You can email me with any questions at the email address below. The GitHub repository can also be found below:
 
-* [Email](jdn@gmail.com)
-* [Github](githubURL.com/jeff)
+* [Email](myaddress@email.com)
+* [Github](https://github.com)
 
 ---
 
 ## how-to-contribute
 
-"Never contribute"
+don't
 
 ---
 
 ## tests
 
-"You will fail the test"
+you will fail the test
