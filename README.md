@@ -17,7 +17,9 @@ An API to generate a readme file from the command line based on user input
 
 ## Description
 
-[Visit the Deployed Site](https://jeffreydne.github.io/ReadmeGenerator)
+[Watch the video explaining how to use the site](https://watch.screencastify.com/v/NGn5JZsM3BdQam62lCli)
+
+[Visit the Github repository](https://github.com/Jeffreydne/ReadmeGenerator)
 
 This is a website where the user can generate a README file by answering a series of questions in the CLI. 
 
@@ -89,7 +91,7 @@ I developed this website from a very basic framework provided by the UC Berkeley
 
  The excellent staff at UC Berkeley Extension Full Stack Bootcamp provided the beginings of the table of technology used in this README.md, as well as the initial package.json and a few to do items were listed in index.js. The functions to implement the site were all written by me. 
  
- In addition to writing almost all of the javascript, I also wrote all the template to the README.md file to be used as a template.
+ In addition to writing almost all of the javascript, I also wrote the template to the README.md file allowing the user to hit on all the necessary points while making a professional README every time.
 
 ---
 

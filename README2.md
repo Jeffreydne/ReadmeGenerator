@@ -1,12 +1,12 @@
-# README.md Generator
+# Jeff Nelson Portfolio
 
 ---
 
 ## Description
 
-[Visit the Deployed Site](www.github.com/jeffSite)
+[Visit the Deployed Site](https://jeffreydne.github.io/Jeff-Nelson-Portfolio/)
 
-this is a very cool project
+This is my portfolio and it contains several of my projects as well as information about how to contact me and sjkills that I have
 
 ---
 
@@ -24,30 +24,30 @@ this is a very cool project
 
 ## installation
 
-init is the key
+No isntallation needed
 
 ---
 
 ## usage
 
-use it at your own peril
+You can use this portfolio to find out information about me and my skills in the web development field. You will also learn about some of my projects and can click on these projects to be taken to thir deployed sites. 
 
 ---
 
 ## license
 
-Mozilla_Public_License_2.0
+MIT_license
 
 ---
 
 ## badges
-![Static Badge](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-blue)
+![Static Badge](https://img.shields.io/badge/License-MIT_license-blue)
 
 ---
 
 ## author-info
 
-### JDN
+### Jeff Nelson
 
 ---
 
@@ -55,17 +55,17 @@ Mozilla_Public_License_2.0
 
 ### You can email me with any questions at the email address below. The GitHub repository can also be found below:
 
-* [Email](myaddress@email.com)
-* [Github](https://github.com)
+* [Email](jeffreydne@gmail.com)
+* [Github](https://jeffreydne.github.io/Jeff-Nelson-Portfolio)
 
 ---
 
 ## how-to-contribute
 
-don't
+No outside contributions are accepted as this is my personal portfolio.
 
 ---
 
 ## tests
 
-you will fail the test
+Use the console in your browser
