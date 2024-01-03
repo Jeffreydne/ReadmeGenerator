@@ -1,21 +1,8 @@
-// TODO: Include packages needed for this application
-// Might not need below:
-// const generate = require('./utils/generateMarkdown.js');
+//Required npm packages
 const inquirer = require('inquirer');
 const fs = require('fs');
-// TODO: Create an array of questions for user input
-// might not need below
-// const questions = [];
 
-// variables- not needed
-// let userName, userEmail, userGithub, projectTitle, deployedSite, description, installation, usage, contribute, tests;
-
-// TODO: Create a function to write README file
-// might not need below in current form
-// function writeToFile(fileName, data) {}
-
-// alternate preocess for now
-// XXXXXXXXX everything between the rows of XXX was imported from lesson 20
+// Use inquirer to ask user to input needed information on the command line with question objects starting on line 7 and ending on line 63
 inquirer
 .prompt([
     {
@@ -76,10 +63,7 @@ inquirer
     },
 ])
 .then((response) => 
-// console.log(`Your name is ${response.name}. You know the following languages: ${response.languages}. You prefer to comunicate with ${response.communication}.`)
-
-//This trial of storing data doesn't seem to work. Only the 1st "response is in orange"
-// userName = response.varName, userEmail = response.varEmail, userGithub = response.varGithub, projectTitle = response.varProjectTitle, deployedSite = response.varDeployedSite, description = response.varDescription, installation = response.varInstallation, usage = response.varUsage, contribute = response.varContribute, tests = response.varTests
+// use the information gathered in the prompt section above (as the response object) to poplulate the new README2.md file, which will give the user a complete README
 
 fs.writeFile('README2.md', `# ${response.varProjectTitle}
 
@@ -95,46 +79,46 @@ ${response.varDescription}
 
 ## Table of Contents
 
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [License](#License)
-- [Badges](#Badges)
-- [AuthorInfo](#AuthorInfo)
-- [HowToContribute](#HowToContribute)
-- [Tests](#Tests)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Badges](#badges)
+- [AuthorInfo](#author-info)
+- [HowToContribute](#how-to-contribute)
+- [Tests](#tests)
 
 ---
 
-## Installation
+## installation
 
 ${response.varInstallation}
 
 ---
 
-## Usage
+## usage
 
 ${response.varUsage}
 
 ---
 
-## License
+## license
 
 ${response.varLicense}
 
 ---
 
-## Badges
+## badges
 ![Static Badge](https://img.shields.io/badge/License-${response.varLicense}-blue)
 
 ---
 
-## AuthorInfo
+## author-info
 
 ### ${response.varName}
 
 ---
 
-## Questions
+## questions
 
 ### You can email me with any questions at the email address below. The GitHub repository can also be found below:
 
@@ -143,31 +127,15 @@ ${response.varLicense}
 
 ---
 
-## HowToContribute
+## how-to-contribute
 
 ${response.varContribute}
 
 ---
 
-## Tests
+## tests
 
 ${response.varTests}`, (err) =>
   err ? console.error(err) : console.log('Success!')
 
 ));
-
-// The below section is the original- will be moved or copy above works? ??
-// fs.writeFile('log.txt', `Your name is ${response.name}. You know the following languages: ${response.languages}. You prefer to comunicate with ${response.communication}.`, (err) =>
-//   err ? console.error(err) : console.log('Success!')
-
-// ));
-// XXXXXXXXXXX
-
-
-// TODO: Create a function to initialize app
-// might not need below
-// function init() {}
-
-// Function call to initialize app
-// might not need below
-// init();
